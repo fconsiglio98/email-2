@@ -1,0 +1,12 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: francescoconsiglio98@gmail.com
+    password: password per le app
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
